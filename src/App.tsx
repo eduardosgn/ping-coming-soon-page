@@ -1,4 +1,5 @@
 import Header from './components/Header/Header';
+import './globals.scss';
 
 function App() {
   return (
