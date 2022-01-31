@@ -1,0 +1,49 @@
+$primaryColor: hsl(223, 87%, 63%);
+$secondaryColorPaleBlue: hsl(223, 100%, 88%);
+$secondaryColorLightRed: hsl(354, 100%, 66%);
+$neutralGrey: hsl(0, 0%, 59%);
+$neutralVeryDarkBlue: hsl(209, 33%, 12%);
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+
+    ul {
+        width: 50%;
+        margin: 2rem auto;
+        color: $primaryColor;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                color: $secondaryColorPaleBlue;
+            }
+        }
+
+    }
+
+    #copy {
+        text-align: center;
+        font-size: .8rem;
+        margin-bottom: 3rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@media all and (min-width: 900px) {
+    .container {
+        ul {
+            width: 20%;
+        }
+    }
+}

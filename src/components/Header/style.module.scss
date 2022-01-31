@@ -96,7 +96,8 @@ $neutralVeryDarkBlue: hsl(209, 33%, 12%);
             }
 
             button {
-                padding: 1rem 3rem;
+                padding: 1rem 4rem;
+                border: $primaryColor 2px solid;
             }
         }
     }

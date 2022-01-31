@@ -6,8 +6,16 @@ $secondaryColorLightRed: hsl(354, 100%, 66%);
 $neutralGrey: hsl(0, 0%, 59%);
 $neutralVeryDarkBlue: hsl(209, 33%, 12%);
 
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
     font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
     h1 {
         color: $neutralVeryDarkBlue;
