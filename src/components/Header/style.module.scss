@@ -102,3 +102,13 @@ $neutralVeryDarkBlue: hsl(209, 33%, 12%);
         }
     }
 }
+
+@media all and (min-width: 1440px) {
+    .container {
+        form {
+            button {
+                padding: 1rem 4.5rem;
+            }
+        }
+    }
+}
